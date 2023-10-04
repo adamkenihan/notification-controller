@@ -1,8 +1,8 @@
-module github.com/fluxcd/notification-controller
+module github.com/adamkenihan/notification-controller
 
 go 1.20
 
-replace github.com/fluxcd/notification-controller/api => ./api
+replace github.com/adamkenihan/notification-controller/api => ./api
 
 require (
 	cloud.google.com/go/pubsub v1.33.0
