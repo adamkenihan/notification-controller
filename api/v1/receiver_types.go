@@ -40,6 +40,7 @@ const (
 	GCRReceiver         string = "gcr"
 	NexusReceiver       string = "nexus"
 	ACRReceiver         string = "acr"
+	CDEventsReceiver    string = "cdevents"
 )
 
 // ReceiverSpec defines the desired state of the Receiver.
